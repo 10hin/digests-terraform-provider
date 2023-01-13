@@ -1,0 +1,23 @@
+Input: example
+Algorithms:
+  MD4:              e1821c366558728f70e054fbf9db7b64
+  MD5:              1a79a4d60de6718e8e5b326e338ae533
+  SHA1:             c3499c2729730a7f807efb8676a92dcb6f8a3f8f
+  SHA224:           312b3e578a63c0a34ed3f359263f01259e5cda07df73771d26928be5
+  SHA256:           50d858e0985ecc7f60418aaf0cc5ab587f42c2570a884095a9e8ccacd0f6545c
+  SHA384:           feeebf884f6dabe6eca8d68e373d6be488cdaa5eb764e895290336ffe9ff969686f2a9d362e9a8bbddf6e7b2e1455f2d
+  SHA512:           3bb12eda3c298db5de25597f54d924f2e17e78a26ad8953ed8218ee682f0bbbe9021e2f3009d152c911bf1f25ec683a902714166767afbd8e5bd0fb0124ecb8a
+  SHA512_224:       685a239c99dddac33f00880d2824511cff3b71ff8fdc63a3d3b692fe
+  SHA512_256:       59fc007607ccc82d96f016857aaa697c545002d18045e49324696f12b7be8f45
+  SHA3_224:         68cb29c3d87d4293d40505b43bb04d0c35334e16e7dcab4883fa9f39
+  SHA3_256:         70983d692f648185febe6d6fa607630ae68649f7e6fc45b94680096c06e4fadb
+  SHA3_384:         9394605cc5fcf56f04a2ae525f1b8f57b8575c032c338b2aaa68135ce518f40d1a02471ee4d38d4dd83aa3deafcd1b1d
+  SHA3_512:         e6da59e7349fb06a3de52ab3a2b383090f80d45ea8489d76b231d580ccf01fb112e509dedd5cc09bead4aa54455ca4c66cd46abe35c061325802d5df12b2a55d
+  CRC32_IEEE:       6eec9b9f
+  CRC32_Castagnoli: 7335673b
+  CRC32_Koopman:    61c2bdad
+  CRC32_PHP:        5cc22de8
+  Adler32:          0bc002ed
+Output variants(MD5):
+  base64: Gnmk1g3mcY6OWzJuM4rlMw==
+  hex: 1a79a4d60de6718e8e5b326e338ae533
