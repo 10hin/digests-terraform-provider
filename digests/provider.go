@@ -54,6 +54,9 @@ func (d *digestsProvider) DataSources(ctx context.Context) []func() datasource.D
 		NewSHA3_256DataSource,
 		NewSHA3_384DataSource,
 		NewSHA3_512DataSource,
+		NewCRC32IEEEDataSource,
+		NewCRC32CastagnoliDataSource,
+		NewCRC32KoopmanDataSource,
 	}
 }
 
