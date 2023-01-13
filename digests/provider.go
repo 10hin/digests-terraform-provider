@@ -57,6 +57,8 @@ func (d *digestsProvider) DataSources(ctx context.Context) []func() datasource.D
 		NewCRC32IEEEDataSource,
 		NewCRC32CastagnoliDataSource,
 		NewCRC32KoopmanDataSource,
+		NewCRC32PHPDataSource,
+		NewAdler32DataSource,
 	}
 }
 

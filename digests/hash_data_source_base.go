@@ -70,7 +70,8 @@ func (b *hashDataSourceBase) Read(ctx context.Context, req datasource.ReadReques
 
 	model.Base64 = types.StringValue(base64Hash.String())
 
-	model.Hex = types.StringValue(fmt.Sprintf("%032x", rawHash))
+	format := fmt.Sprintf("%%0%dx", len(rawHash)*2)
+	model.Hex = types.StringValue(fmt.Sprintf(format, rawHash))
 
 	resp.State.Set(ctx, &model)
 
